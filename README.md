@@ -1,4 +1,4 @@
-# tello_slam ROS Noetic Ubuntu 20.04
+# Tello Slam ROS Noetic Ubuntu 20.04
 
 Paquete de ROS para lanzar diferentes nodos de DJI Tello y ORB SLAM3 (Monocular). 
 
@@ -21,7 +21,7 @@ ros-noetic-rqt-ez-publisher
 Ir a la misma ruta donde se encuentre Tello Driver
 
 * `$ cd <CATKIN_WS/SRC>`
-* `$ git clone https://github.com/Jegovila/tello_slam.git`
+* `$ git clone https://github.com/Jegovila/Tello-Slam.git`
 * `$ cd ..`
 * `$ catkin build tello_slam`
 
