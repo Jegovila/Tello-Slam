@@ -34,4 +34,4 @@ Asegurarse de hacer source al `CATKIN_WS`. Después:
 
 * `$ roslaunch tello_slam startNodes.launch`
 
-
+La interfaz gráfica `rqt_ez_publisher` se puede modificar (tópicos, valores mínimos y máximos) y guardar el archivo de configuración .yaml, el archivo `tello_slam/launch/startNodes.launch` esta importando el archivo de configuración `tello_slam/config/rqt_pub.yaml`
