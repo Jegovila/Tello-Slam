@@ -13,9 +13,12 @@ Seguir las instrucciones de [Tello driver](https://github.com/Jegovila/tello_dri
 Seguir las instrucciones de [ORB_SLAM3](https://github.com/Jegovila/ORB_SLAM3), de momento solo lo he probado con la versión Monocular, la cual se ha modificado a `MonoPubPose`, Para poder pubicar la pose de la cámara (tello) y poder controlar con ella. 
 
 ## 3. rqt_ez_publisher
+
+Necesario para mandar posiciones deseadas con la interfaz gráfica
 ```
 ros-noetic-rqt-ez-publisher
 ```
+
 ## 4. Tello Slam
 
 Ir a la misma ruta donde se encuentre Tello Driver
@@ -24,4 +27,11 @@ Ir a la misma ruta donde se encuentre Tello Driver
 * `$ git clone https://github.com/Jegovila/Tello-Slam.git`
 * `$ cd ..`
 * `$ catkin build tello_slam`
+
+## 5. Uso
+
+Asegurarse de hacer source al `CATKIN_WS`. Después:
+
+* `$ roslaunch tello_slam startNodes.launch`
+
 
