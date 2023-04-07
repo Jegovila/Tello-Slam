@@ -10,7 +10,7 @@ Seguir las instrucciones de [Tello driver](https://github.com/Jegovila/tello_dri
 
 ## 2. ORB SLAM3
 
-Seguir las instrucciones de [ORB_SLAM3](https://github.com/Jegovila/ORB_SLAM3), de momento solo lo he probado con la versión Monocular, la cual se ha modificado a `MonoPubPose`, Para poder pubicar la pose de la cámara (tello) y poder controlar con ella. 
+Seguir las instrucciones de [ORB_SLAM3](https://github.com/Jegovila/ORB_SLAM3), de momento solo lo he probado con la versión Monocular, la cual se ha modificado a `MonoPubPose`, Para poder publicar la pose de la cámara (tello) y poder controlar con ella. 
 
 ## 3. rqt_ez_publisher
 
