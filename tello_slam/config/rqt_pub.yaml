@@ -1,0 +1,18 @@
+publish_interval: 100
+settings:
+  /pos_d/pose/position/x:
+    is_repeat: true
+    max: 0.25
+    min: -0.25
+  /pos_d/pose/position/y:
+    is_repeat: true
+    max: 0.25
+    min: -0.25
+  /pos_d/pose/position/z:
+    is_repeat: true
+    max: 0.25
+    min: -0.25
+texts:
+- /pos_d/pose/position/x
+- /pos_d/pose/position/y
+- /pos_d/pose/position/z
