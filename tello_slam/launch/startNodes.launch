@@ -1,9 +1,0 @@
-<launch>
-	<include file="$(find tello_driver)/launch/tello_node.launch"/>
-	<node name="$(anon orb)" pkg="ORB_SLAM3" type="Mono" args="/home/javier/ORB_SLAM3/Vocabulary/ORBvoc.txt /home/javier/ORB_SLAM3/Examples_old/ROS/ORB_SLAM3/Tello.yaml"/>
-	<node name="$(anon t)" pkg="tello_driver" type="tello_init.py" output="screen"/>
-	
-
-	<node name="$(anon pub)" pkg="rqt_ez_publisher" type="rqt_ez_publisher" args="--slider-file $(find tello_slam)/config/rqt_pub.yaml" />
-
-</launch>
