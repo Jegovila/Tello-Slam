@@ -37,4 +37,4 @@ Asegurarse de hacer source al `CATKIN_WS`. Después:
 * `$ roslaunch tello_slam tello_slam_control.launch`: Control de posición a través de la gui 
 * `$ roslaunch tello_slam tello_slam_mapping.launch`: Movimiento predefinido solo para mapeo
 
-La interfaz gráfica `rqt_ez_publisher` se puede modificar (tópicos, valores mínimos y máximos) y guardar el archivo de configuración .yaml, el archivo `tello_slam/launch/startNodes.launch` esta importando el archivo de configuración `tello_slam/config/rqt_pub.yaml`
+La interfaz gráfica `rqt_ez_publisher` se puede modificar (tópicos, valores mínimos y máximos) y guardar el archivo de configuración .yaml, los archivos `tello_slam_control.launch` y `tello_slam_mapping.launch` están importando el archivo de configuración `tello_slam/config/rqt_pub.yaml`
