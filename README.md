@@ -6,7 +6,7 @@ Paquete de ROS para lanzar diferentes nodos de DJI Tello y ORB SLAM3 (Monocular)
 
 ## 1. Tello Driver
 
-Seguir las instrucciones de [Tello driver](https://github.com/Jegovila/tello_driver), este repositorio cuenta ya con un script (tello_init.py) para controlar el dron tomando en cuenta la pose obtenida con ORB SLAM3. Se requiere un workspace creado con catkin build
+Seguir las instrucciones de [Tello driver](https://github.com/Jegovila/tello_driver), este repositorio cuenta ya con un script (tello_control.py) para controlar el dron tomando en cuenta la pose obtenida con ORB SLAM3. Se requiere un workspace creado con catkin build
 
 ## 2. ORB SLAM3
 
