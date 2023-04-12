@@ -1,6 +1,6 @@
 <launch>
 	<include file="$(find tello_driver)/launch/tello_node.launch"/>
-	<node name="$(anon orb)" pkg="ORB_SLAM3" type="Mono" args="PATH_TO/ORB_SLAM3/Vocabulary/ORBvoc.txt PATH_TO/ORB_SLAM3/Examples_old/ROS/ORB_SLAM3/Tello.yaml"/>
+	<node name="$(anon orb)" pkg="ORB_SLAM3" type="Mono" args="$(find ORB_SLAM3)/../../../Vocabulary/ORBvoc.txt $(find ORB_SLAM3)/Tello.yaml"/>
 	<node name="$(anon t)" pkg="tello_driver" type="tello_control.py" output="screen"/>
 	
 
