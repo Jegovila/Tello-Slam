@@ -2,6 +2,8 @@
 
 Paquete de ROS para lanzar diferentes nodos de DJI Tello y ORB SLAM3 (Monocular). 
 
+![ezgif com-resize](https://user-images.githubusercontent.com/115826517/232606119-c85d571b-f55a-40df-b8f9-48cc6156cf52.gif)
+
 
 # Instalación
 
