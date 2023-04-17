@@ -2,7 +2,6 @@
 
 Paquete de ROS para lanzar diferentes nodos de DJI Tello y ORB SLAM3 (Monocular). 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L3QdxaBU3R4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Instalación
 
@@ -40,3 +39,5 @@ Asegurarse de hacer source al `CATKIN_WS`. Después:
 * `$ roslaunch tello_slam tello_slam_mapping.launch`: Movimiento predefinido solo para mapeo
 
 La interfaz gráfica `rqt_ez_publisher` se puede modificar (tópicos, valores mínimos y máximos) y guardar el archivo de configuración .yaml, los archivos `tello_slam_control.launch` y `tello_slam_mapping.launch` están importando el archivo de configuración `tello_slam/config/rqt_pub.yaml`
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/L3QdxaBU3R4/0.jpg)](https://www.youtube.com/watch?v=L3QdxaBU3R4)
