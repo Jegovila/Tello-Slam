@@ -19,7 +19,7 @@ Seguir las instrucciones de [ORB_SLAM3](https://github.com/Jegovila/ORB_SLAM3), 
 
 Necesario para mandar posiciones deseadas con la interfaz gráfica. 
 ```
-ros-noetic-rqt-ez-publisher
+sudo apt install ros-noetic-rqt-ez-publisher
 ```
 
 Con los sliders se manda la posición deseada en x,y,z. Para más información sobre cómo modificar la configuración de la interfaz, la página de [rqt_ez_publisher](http://wiki.ros.org/rqt_ez_publisher) 
