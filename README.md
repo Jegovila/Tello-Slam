@@ -42,4 +42,9 @@ Asegurarse de hacer source al `CATKIN_WS`. Después:
 
 La interfaz gráfica `rqt_ez_publisher` se puede modificar (tópicos, valores mínimos y máximos) y guardar el archivo de configuración .yaml, los archivos `tello_slam_control.launch` y `tello_slam_mapping.launch` están importando el archivo de configuración `tello_slam/config/rqt_pub.yaml`
 
+# Docker
+
+* `$ docker pull jegovila/telloros:2.0`
+* `$ xhost + && docker run --rm -it --net=host --ipc=host -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro jegovila/telloros:2.0`
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/L3QdxaBU3R4/0.jpg)](https://www.youtube.com/watch?v=L3QdxaBU3R4)
