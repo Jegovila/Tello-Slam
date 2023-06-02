@@ -47,4 +47,6 @@ La interfaz gráfica `rqt_ez_publisher` se puede modificar (tópicos, valores m�
 * `$ docker pull jegovila/telloros:2.0`
 * `$ xhost + && docker run --rm -it --net=host --ipc=host -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro jegovila/telloros:2.0`
 
+Puede ser necesario correr con `sudo` los comandos `xhost` y `docker`
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/L3QdxaBU3R4/0.jpg)](https://www.youtube.com/watch?v=L3QdxaBU3R4)
